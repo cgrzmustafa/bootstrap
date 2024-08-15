@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Instagram</title>
+  </head>
+  <body>
+    <!-- nav start -->
+
+    <nav class="container mt-3" style="height: 54px">
+      <div class="row">
+        <div class="col-sm-4">
+          <img
+            src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png"
+            alt=""
+          />
+        </div>
+        <div class="col-sm-4">
+          <input
+            class="form-control mr-sm-2 empty"
+            type="search"
+            placeholder="Ara"
+            style="font-family: Arial, FontAwesome; height: 28px; width: 216px"
+            aria-label="Search"
+          />
+        </div>
+
+        <div class="col-sm-4">
+          <ul class="ul">
+            <li>
+              <a href="">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  width="20"
+                  viewBox="0 0 576 512"
+                >
+                  <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M575.8 255.5c0 18-15 32.1-32 32.1l-32 0 .7 160.2c0 2.7-.2 5.4-.5 8.1l0 16.2c0 22.1-17.9 40-40 40l-16 0c-1.1 0-2.2 0-3.3-.1c-1.4 .1-2.8 .1-4.2 .1L416 512l-24 0c-22.1 0-40-17.9-40-40l0-24 0-64c0-17.7-14.3-32-32-32l-64 0c-17.7 0-32 14.3-32 32l0 64 0 24c0 22.1-17.9 40-40 40l-24 0-31.9 0c-1.5 0-3-.1-4.5-.2c-1.2 .1-2.4 .2-3.6 .2l-16 0c-22.1 0-40-17.9-40-40l0-112c0-.9 0-1.9 .1-2.8l0-69.7-32 0c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L564.8 231.5c8 7 12 15 11 24z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  width="20"
+                  viewBox="0 0 512 512"
+                >
+                  <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M64 0C28.7 0 0 28.7 0 64L0 352c0 35.3 28.7 64 64 64l96 0 0 80c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L309.3 416 448 416c35.3 0 64-28.7 64-64l0-288c0-35.3-28.7-64-64-64L64 0z"
+                  />
+                </svg>
+              </a>
+            </li>
+
+            <li>
+              <a href="">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  width="20"
+                  viewBox="0 0 512 512"
+                >
+                  <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm306.7 69.1L162.4 380.6c-19.4 7.5-38.5-11.6-31-31l55.5-144.3c3.3-8.5 9.9-15.1 18.4-18.4l144.3-55.5c19.4-7.5 38.5 11.6 31 31L325.1 306.7c-3.2 8.5-9.9 15.1-18.4 18.4zM288 256a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"
+                  />
+                </svg>
+              </a>
+            </li>
+
+            <li>
+              <a href="">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="20"
+                  width="20"
+                  viewBox="0 0 512 512"
+                >
+                  <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"
+                  />
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img
+                  src="image/depositphotos_406455800-stock-illustration-user-icon-vector-people-icon.jpg"
+                  class=""
+                  style="width: 23px; height: 26px; border-radius: 50%"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- nav end -->
+
+    <!-- main start -->
+
+    <article class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="card">
+            <div class="card-body">
+              <a href="#" style="text-decoration: none" target="_blank">
+                <img
+                  src="image/depositphotos_406455800-stock-illustration-user-icon-vector-people-icon.jpg"
+                  style="width: 23px; height: 26px; border-radius: 50%"
+                  class="storyphoto img-fluid me-3"
+                  alt=""
+                />
+                <span class="storytext">kodluyoruz</span>
+              </a>
+              <a href="#" style="text-decoration: none" target="_blank">
+                <img
+                  src="image/depositphotos_406455800-stock-illustration-user-icon-vector-people-icon.jpg"
+                  style="width: 23px; height: 26px; border-radius: 50%"
+                  class="storyphoto img-fluid me-3"
+                  alt=""
+                />
+                <span class="storytext">furkanolga</span>
+              </a>
+              <a href="#" style="text-decoration: none" target="_blank">
+                <img
+                  src="image/depositphotos_406455800-stock-illustration-user-icon-vector-people-icon.jpg"
+                  style="width: 23px; height: 26px; border-radius: 50%"
+                  class="storyphoto img-fluid me-3"
+                  alt=""
+                />
+                <span class="storytext">elonmusk</span>
+              </a>
+              <a href="#" style="text-decoration: none" target="_blank">
+                <img
+                  src="image/depositphotos_406455800-stock-illustration-user-icon-vector-people-icon.jpg"
+                  style="width: 23px; height: 26px; border-radius: 50%"
+                  class="storyphoto img-fluid me-3"
+                  alt=""
+                />
+                <span class="storytext">gulcanyayla</span>
+              </a>
+              <a href="#" style="text-decoration: none" target="_blank">
+                <img
+                  src="image/depositphotos_406455800-stock-illustration-user-icon-vector-people-icon.jpg"
+                  style="width: 23px; height: 26px; border-radius: 50%"
+                  class="storyphoto img-fluid me-3"
+                  alt=""
+                />
+                <span class="storytext">ozgeacik</span>
+              </a>
+              <a href="#" style="text-decoration: none" target="_blank">
+                <img
+                  src="image/depositphotos_406455800-stock-illustration-user-icon-vector-people-icon.jpg"
+                  style="width: 23px; height: 26px; border-radius: 50%"
+                  class="storyphoto img-fluid me-3"
+                  alt=""
+                />
+                <span class="storytext">kablosuzkedi</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4"></div>
+      </div>
+    </article>
+
+    <article class="container">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="card mb-3">
+            <a
+              href="#"
+              style="text-decoration: none"
+              target="_blank"
+              class="bg-secondary height"
+            >
+              <img
+                src="image/depositphotos_406455800-stock-illustration-user-icon-vector-people-icon.jpg"
+                style="width: 23px; height: 26px; border-radius: 50%"
+                class="storyphoto img-fluid ms-3"
+                alt=""
+              />
+              <span class="storytext">gulcanyayla</span>
+            </a>
+            <div class="card-body">
+              <img
+                class="card-img-top"
+                src="https://picsum.photos/id/25/800/300"
+                alt=""
+              />
+              <ul class="ul">
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20"
+                    width="20"
+                    viewBox="0 0 512 512"
+                  >
+                    <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      width="20"
+                      viewBox="0 0 512 512"
+                    >
+                      <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                      <path
+                        d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9l.3-.5z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+              <p class="card-text">
+                <a href="#">furkantolgayuce</a> ve
+                <a href="#">42 diğer kişi </a> beğendi
+              </p>
+              <br />
+              <p class="card-text">
+                <a href="#">cengizmataraci</a> Burası Rize! Harika bir cennet!
+              </p>
+              <p class="card-text">
+                <a href="#">ahmetmataraci</a> Burası Rize! Harika bir cennet!
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card">
+            <div class="card-header">
+              <a href="#" style="text-decoration: none" target="_blank">
+                <img
+                  src="image/depositphotos_406455800-stock-illustration-user-icon-vector-people-icon.jpg"
+                  style="width: 23px; height: 26px; border-radius: 50%"
+                  class="storyphoto img-fluid me-3"
+                  alt=""
+                />
+                <span class="storytext">kodluyoruz</span>
+              </a>
+            </div>
+            <div class="card-body">
+              <div class="card-text">
+                <p>Senin için önerilenler <a href="#">Tümünü Gör</a></p>
+              </div>
+              <div class="card-text">
+                <a href="#" style="text-decoration: none" target="_blank">
+                  <img
+                    src="image/depositphotos_406455800-stock-illustration-user-icon-vector-people-icon.jpg"
+                    style="width: 23px; height: 26px; border-radius: 50%"
+                    class="storyphoto img-fluid me-3"
+                    alt=""
+                  />
+                  <span class="storytext">kablosuzbeyin</span>
+                  <a href="#">Takip et</a>
+                </a>
+              </div>
+              <div class="card-text">
+                <a href="#" style="text-decoration: none" target="_blank">
+                  <img
+                    src="image/depositphotos_406455800-stock-illustration-user-icon-vector-people-icon.jpg"
+                    style="width: 23px; height: 26px; border-radius: 50%"
+                    class="storyphoto img-fluid me-3"
+                    alt=""
+                  />
+                  <span class="storytext">kablosuzbeyin</span>
+                  <a href="#">Takip et</a>
+                </a>
+              </div>
+              <div class="card-text">
+                <a href="#" style="text-decoration: none" target="_blank">
+                  <img
+                    src="image/depositphotos_406455800-stock-illustration-user-icon-vector-people-icon.jpg"
+                    style="width: 23px; height: 26px; border-radius: 50%"
+                    class="storyphoto img-fluid me-3"
+                    alt=""
+                  />
+                  <span class="storytext">kablosuzbeyin</span>
+                  <a href="#">Takip et</a>
+                </a>
+              </div>
+              <div class="card-text">
+                <a href="#" style="text-decoration: none" target="_blank">
+                  <img
+                    src="image/depositphotos_406455800-stock-illustration-user-icon-vector-people-icon.jpg"
+                    style="width: 23px; height: 26px; border-radius: 50%"
+                    class="storyphoto img-fluid me-3"
+                    alt=""
+                  />
+                  <span class="storytext">kablosuzbeyin</span>
+                  <a href="#">Takip et</a>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="card mb-3">
+            <a
+              href="#"
+              style="text-decoration: none"
+              target="_blank"
+              class="bg-secondary height"
+            >
+              <img
+                src="image/depositphotos_406455800-stock-illustration-user-icon-vector-people-icon.jpg"
+                style="width: 23px; height: 26px; border-radius: 50%"
+                class="storyphoto img-fluid ms-3"
+                alt=""
+              />
+              <span class="storytext">gulcanyayla</span>
+            </a>
+            <div class="card-body">
+              <img
+                class="card-img-top"
+                src="https://picsum.photos/id/25/800/300"
+                alt=""
+              />
+              <ul class="ul">
+                <li>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20"
+                    width="20"
+                    viewBox="0 0 512 512"
+                  >
+                    <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                      d="M225.8 468.2l-2.5-2.3L48.1 303.2C17.4 274.7 0 234.7 0 192.8l0-3.3c0-70.4 50-130.8 119.2-144C158.6 37.9 198.9 47 231 69.6c9 6.4 17.4 13.8 25 22.3c4.2-4.8 8.7-9.2 13.5-13.3c3.7-3.2 7.5-6.2 11.5-9c0 0 0 0 0 0C313.1 47 353.4 37.9 392.8 45.4C462 58.6 512 119.1 512 189.5l0 3.3c0 41.9-17.4 81.9-48.1 110.4L288.7 465.9l-2.5 2.3c-8.2 7.6-19 11.9-30.2 11.9s-22-4.2-30.2-11.9zM239.1 145c-.4-.3-.7-.7-1-1.1l-17.8-20-.1-.1s0 0 0 0c-23.1-25.9-58-37.7-92-31.2C81.6 101.5 48 142.1 48 189.5l0 3.3c0 28.5 11.9 55.8 32.8 75.2L256 430.7 431.2 268c20.9-19.4 32.8-46.7 32.8-75.2l0-3.3c0-47.3-33.6-88-80.1-96.9c-34-6.5-69 5.4-92 31.2c0 0 0 0-.1 .1s0 0-.1 .1l-17.8 20c-.3 .4-.7 .7-1 1.1c-4.5 4.5-10.6 7-16.9 7s-12.4-2.5-16.9-7z"
+                    />
+                  </svg>
+                </li>
+                <li>
+                  <a href="#">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      width="20"
+                      viewBox="0 0 512 512"
+                    >
+                      <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                      <path
+                        d="M123.6 391.3c12.9-9.4 29.6-11.8 44.6-6.4c26.5 9.6 56.2 15.1 87.8 15.1c124.7 0 208-80.5 208-160s-83.3-160-208-160S48 160.5 48 240c0 32 12.4 62.8 35.7 89.2c8.6 9.7 12.8 22.5 11.8 35.5c-1.4 18.1-5.7 34.7-11.3 49.4c17-7.9 31.1-16.7 39.4-22.7zM21.2 431.9c1.8-2.7 3.5-5.4 5.1-8.1c10-16.6 19.5-38.4 21.4-62.9C17.7 326.8 0 285.1 0 240C0 125.1 114.6 32 256 32s256 93.1 256 208s-114.6 208-256 208c-37.1 0-72.3-6.4-104.1-17.9c-11.9 8.7-31.3 20.6-54.3 30.6c-15.1 6.6-32.3 12.6-50.1 16.1c-.8 .2-1.6 .3-2.4 .5c-4.4 .8-8.7 1.5-13.2 1.9c-.2 0-.5 .1-.7 .1c-5.1 .5-10.2 .8-15.3 .8c-6.5 0-12.3-3.9-14.8-9.9c-2.5-6-1.1-12.8 3.4-17.4c4.1-4.2 7.8-8.7 11.3-13.5c1.7-2.3 3.3-4.6 4.8-6.9l.3-.5z"
+                      />
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+              <p class="card-text">
+                <a href="#">furkantolgayuce</a> ve
+                <a href="#">42 diğer kişi </a> beğendi
+              </p>
+              <br />
+              <p class="card-text">
+                <a href="#">cengizmataraci</a> Burası Rize! Harika bir cennet!
+              </p>
+              <p class="card-text">
+                <a href="#">ahmetmataraci</a> Burası Rize! Harika bir cennet!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+.margin {
+  margin-left: 192px;
+}
+
+.ul {
+  list-style-type: none;
+}
+
+ul {
+  list-style: none outside none;
+}
+li {
+  position: relative;
+  display: inline;
+  margin: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.height {
+  height: 35px;
+}
+
+.color {
+  background-color: rgb(222, 224, 226);
+}
